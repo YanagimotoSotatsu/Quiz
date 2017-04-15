@@ -23,7 +23,6 @@ class QuizViewController: UIViewController {
     @IBOutlet var choiceButtons2: UIButton!
     @IBOutlet var choiceButtons3: UIButton!
 
-
     
     override func viewDidLoad() {
         super.viewDidLoad()
