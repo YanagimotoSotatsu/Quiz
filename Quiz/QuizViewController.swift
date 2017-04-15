@@ -18,6 +18,7 @@ class QuizViewController: UIViewController {
     //クイズを表示するTextView
     @IBOutlet var quizTextView: UITextView!
     
+   
     //選択肢のボタン
     @IBOutlet var choiceButtons1: UIButton!
     @IBOutlet var choiceButtons2: UIButton!

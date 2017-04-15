@@ -14,6 +14,8 @@ class ResultViewController: UIViewController {
     @IBOutlet var Label: UILabel!
 
     
+   
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
