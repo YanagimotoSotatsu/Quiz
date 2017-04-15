@@ -36,6 +36,7 @@ class QuizViewController: UIViewController {
         tmpArray.append(["次のうちバロンドールを取っていないのは？","カンナヴァーロ","カカー","マラドーナ",3])
         //------------------------ここから上にクイズを書く------------------------//
         
+      
         // 問題をシャッフルしてquizArrayに格納する
         while (tmpArray.count > 0) {
             let index = Int(arc4random_uniform(UInt32(tmpArray.count)))
@@ -45,6 +46,7 @@ class QuizViewController: UIViewController {
         choiceQuiz()
     }
     
+   
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
